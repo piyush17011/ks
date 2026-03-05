@@ -17,8 +17,9 @@ import {
 } from 'react-native';
 import axios from 'axios';
 import styles from '../styles';
+import W_API from '../../../.env';
 
-const WEATHER_API_KEY = '035b02848fa2b4ac7cc212b651b93532';
+const WEATHER_API_KEY = W_API;
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 const getFarmingAdvice = (weather) => {
